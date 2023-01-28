@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patrick's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="transition">
+    <!-- NAVIGATION BAR  -->
+    <nav class="navbar sticky space-between flex transition">
+      <a href="#about" class="navbar__link transition--text">About</a>
+      <a href="#contact" class="navbar__link transition--text">Contact</a>
+      <a href="#work" class="navbar__link transition--text">Work</a>
+    </nav>
+
+    <aside class="sidebar column flex transition">
+      <section class="sidebar__toggle-wrapper flex">
+        <div class="sidebar__toggle-wrapper__toggle">
+          <div class="dot"></div>
+        </div>
+      </section>
+      <section class="sidebar__progress-bar__wrapper">
+        <div class="sidebar__progress-bar transition"></div>
+      </section>
+      <section class="sidebar__mouse-indicator__wrapper"></section>
+      <section class="sidebar__sitemap flex transition--text">
+        <p class="sidebar__sitemap__text">
+          Patrick//<span class="sidebar__sitemap__text__indicator">home</span>
+        </p>
+      </section>
+    </aside>
+
+    <!-- HEADER SECTION -->
+    <header class="header flex">
+      <h1 class="header__heading column heading flex">
+        <span class="item-1">UI/UX</span>
+        <figure class="item-2"></figure>
+        <span class="item-3">Designer</span>
+      </h1>
+    </header>
+
+    <!-- SELECTED WORK SECTION -->
+    <section id="work" class="work">
+      <h2 class="work__heading heading container">
+        <span class="flex">Selected</span>
+        <span class="flex flex-end">Work</span>
+      </h2>
+
+      <!-- CONTENT -->
+      <section class="work__content">
+        <div class="work__content__item transition space-between sticky flex">
+          <section class="work__content__item__title flex">
+            <p class="work__content__item__title__number">01</p>
+            <h3 class="work__content__item__title__heading">WS-99</h3>
+          </section>
+          <section class="work__content__item__details column flex">
+            <p>2022</p>
+            <p>UI/UX Design</p>
+          </section>
+        </div>
+        <div
+          class="work__content__item transition space-between sticky two flex"
+        >
+          <section class="work__content__item__title flex">
+            <p class="work__content__item__title__number">02</p>
+            <h3 class="work__content__item__title__heading">Spandeep</h3>
+          </section>
+          <section class="work__content__item__details column flex">
+            <p>2022</p>
+            <p>UI Design</p>
+          </section>
+        </div>
+
+        <div
+          class="work__content__item transition space-between sticky three flex"
+        >
+          <section class="work__content__item__title flex">
+            <p class="work__content__item__title__number">03</p>
+            <h3 class="work__content__item__title__heading">Skye</h3>
+          </section>
+          <section class="work__content__item__details column flex">
+            <p>2023</p>
+            <p>UI/UX Design</p>
+          </section>
+        </div>
+        <div
+          class="work__content__item transition space-between sticky four flex"
+        >
+          <section class="work__content__item__title flex">
+            <p class="work__content__item__title__number">04</p>
+            <h3 class="work__content__item__title__heading">ALTRD</h3>
+          </section>
+          <section class="work__content__item__details column flex">
+            <p>2023</p>
+            <p>UI/UX Design</p>
+          </section>
+        </div>
+      </section>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about sticky column container flex">
+      <h2 class="about__heading heading">About</h2>
+      <p class="about__paragraph">
+        hey! i’m patrick imhakhawo,a collaborative ui/ux and digital product
+        designer with years of experience. i create websites and mobile apps
+        experiences for projects related to lifestyle, design, and fashion. I
+        help businesses to reach their goals by creating clean but catchy
+        digital solutions that have a personality.
+      </p>
+      <a href="#" class="about__button button">Resume</a>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <section id="contact" class="footer transition">
+      <div class="contact container">
+        <h2 class="footer__heading column heading flex">
+          <span>LET’S</span>
+          <span class="flex flex-end">GET IN</span>
+          <span>TOUCH</span>
+        </h2>
+
+        <section class="footer__button-wrapper space-between flex">
+          <a class="button" href="https://www.behance.net/preciouimhakha"
+            >Behance</a
+          >
+          <a class="button" href="mailto:imhakhawoapyc@gmail.com"
+            >IMHAKHAWOAPYC@GMAIL.COM</a
+          >
+          <a class="button" href="https://www.linkedin.com/in/patrickimhakhawo"
+            >LinkedIn</a
+          >
+        </section>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
