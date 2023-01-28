@@ -391,3 +391,9 @@ a{
 .footer__button-wrapper {
   padding-bottom: 1rem;
 }
+
+@media(max-width: 1000px){
+    html{
+        opacity: 0;
+    }
+}
