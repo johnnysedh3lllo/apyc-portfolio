@@ -166,7 +166,8 @@ a{
 /* HEADING section */
 .header {
   justify-content: center;
-  padding: 10% 0;
+  align-items: center;
+  height: 100vh;
   padding-left: 4rem;
 }
 
