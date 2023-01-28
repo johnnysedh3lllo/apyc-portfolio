@@ -1,8 +1,8 @@
 @font-face {
   font-family: "uav_osd_mono";
-  src: url("fonts/uav-osd-mono-webfont.woff2") format("woff2"),
-    url("fonts/uav-osd-mono-webfont.woff") format("woff"),
-    url("fonts/uav-osd-mono.ttf") format("truetype");
+  src: url("uav-osd-mono-webfont.woff2") format("woff2"),
+    url("uav-osd-mono-webfont.woff") format("woff"),
+    url("uav-osd-mono.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
